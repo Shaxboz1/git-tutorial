@@ -1,0 +1,78 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background: #555;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #333;
+    width: 40px;
+    border-radius: 8px;
+    gap: 10px;
+    color: white;
+    font-weight: 500;
+}
+.qoshish
+{
+    background: transparent;
+    border: none;
+    margin-top: 100px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.qoshish10
+{
+    background: transparent;
+    border: none;
+    margin-top: 100px;
+    cursor: no-drop;
+    color: white;
+    opacity: 50%;
+}
+.ayrish0
+{
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: no-drop;
+    opacity: 50%;
+}
+.ayrish
+{
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.noll
+{
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.progress
+{
+    transform: rotate(-90deg);
+    width: 100px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -50px
+}
+.nol
+{
+    border-top: 2px solid black;
+}
